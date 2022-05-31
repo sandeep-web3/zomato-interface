@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Merienda:wght@700&family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,600;1,300&family=Merienda:wght@700&family=Plus+Jakarta+Sans&family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,600;1,300&family=Merienda:wght@700&family=Montserrat+Alternates&family=Plus+Jakarta+Sans&family=Poppins:wght@300;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,1000;1,200&family=Merienda:wght@700&family=Montserrat+Alternates&family=Plus+Jakarta+Sans&family=Poppins:wght@200&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    margin: 0;
+}
+
+
+
+
+
+.banner{
+    background-image: url('/img/banner.avif');
+    height: 450px;
+    
+    background-size: cover;
+}
+
+.logo{
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 2%;
+    
+    
+}
+
+
+
+.content{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+    color: white;
+    
+}
+
+.desc{
+    font-size: 28px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+
+.search{
+    width: 700px;
+    height: 7vh;
+    border-radius: 16px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    padding-right: 0;
+    margin-right: 0%;
+
+}
+
+
+   
+
+.material-symbols-outlined {
+    cursor: pointer;
+    color: white;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+  
+
+
+
+}
+
+
+/* section 2 starts */
+
+
+.heading{
+    text-align: center;
+    
+
+}
+
+
+.container{
+    
+   margin-top: 100px;
+}
+
+.card{
+    border: 3px solid gray;
+    width: 300px;
+    height: 53vh;
+    background-color: tomato;
+    border-radius: 12px;
+    padding: 9px;
+    margin-top: 0px;
+    margin-left: 25px;    
+    
+}
+
+.card-img{
+    width: 300px;
+    height: 35vh;
+    border-radius: 20px;
+    padding: 2px;
+    display: flex;
+    object-fit: cover;
+    
+    
+    
+
+    
+}
+
+.restro-name{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 2px;
+    padding: 5px;
+    font-weight: 1000px;
+    color: white;
+    
+}
+
+
+.restro-desc{
+    padding-top: 0%;
+    color: white;
+    
+
+}
+
+
+.orders-desc{
+    padding-left: 5px;
+    padding-bottom: 3px;
+    color: white;
+}
+
+.food-containers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;   
+    align-items: center;
+    
+
+}
+
+/* secton steps starts */
+
+.container-step{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.howitworks{
+    margin-top: -80px;
+    text-align: center;
+    font-size: 39px;
+    
+    
+}
+
+.main{
+    text-align: center;
+    
+
+}
+
+
+
+.background{
+    margin-top: 25px;
+    margin-left: 50px;
+    background-color: rgb(255, 252, 241);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    
+    width: 125px;
+    height: 120px;
+}
+
+
+.card1{
+    box-shadow: 0 0 8px gray;
+    width: 250px;
+    height: 40vh;
+    margin-left: 35px;
+    padding-left: 20px;
+    border-radius: 15px;
+}
+
+.step1head{
+    text-align: center;
+    padding: 0px 50px 0px 30px;
+}
+
+.step1desc1{
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.step1desc{
+    text-align: center;
+    padding-top: -1;
+    font-size: 16px;
+    padding-right: 17px;
+    
+}
+
+
+/* Seaction 3 starts */
+
+
+.bc{
+    background-color: rgb(255, 252, 241);
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.mobile-img{
+    width: 370px;
+    height: 390px;
+    padding-left: 200px;
+    padding-top: 90px;
+    float: left;
+}
+.app{
+    padding-top: 30px;
+
+}
+
+.app-head{
+    font-size: 50px;
+    font-weight: 350;
+    
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+  
+
+
+}
+
+.app-desc{
+    margin-top: -20px;
+    font-size: 25px;
+    font-weight: 80;
+}
+
+.email-box{
+    width: 300px;
+    height: 35px;
+    margin-top: 27px;
+    border-radius: 9px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 2px 2px 3px gray;
+    
+
+}
+
+.app-btn{
+    width: 150px;
+    height: 38px;
+    margin-top: 20px;
+    border-radius: 9px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    
+
+}
+
+.Email{
+    font-size: 25px;
+    font-weight: 300;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Merienda', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+.down-desc{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.app-img{
+    width: 150px;
+}
+
+/* Top Brands Section */
+
+.top-brands{
+    /* background-color: rgb(235, 230, 223); */
+    height: 30vh;
+    margin-top: 50px;
+
+    
+}
+
+.top{
+
+    font-size: 45px;
+    text-align: center;
+   
+}
+
+.brand-img{
+
+    width: 180px;
+    height: 165px;
+    margin-top: 40px;
+    margin-left: 50px;
+    border-radius: 100%;
+    object-fit: contain; 
+    object-fit: fill;
+    
+
+}
